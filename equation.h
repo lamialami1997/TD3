@@ -1,4 +1,5 @@
 #pragma once 
+#include "variable.h"
 #include <iostream>
 
 
@@ -11,7 +12,8 @@ class equation{
     ~equation(){};
     double get_a();
     double get_b();
-    void compute(int i);
+    double compute(double t, double step, Variable var);
+    double compute_initial_condition(double t, Variable var);
 
         
     

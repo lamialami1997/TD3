@@ -16,9 +16,6 @@ class ITimeDiscretization
     int get_f_fin();
     int get_step();
     
-
-
-
 };
 
 class UniformTimeDiscretization: public ITimeDiscretization 
@@ -34,6 +31,7 @@ class problem
     //Donnees 
     private :
     equation m_equation ;
+    
     ITimeDiscretization* time; // pointeur de class 
     
     // constructeur  , déconstructeur  

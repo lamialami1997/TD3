@@ -9,6 +9,7 @@
     void problem::solve()
     {
         std::cout << "--- Solve problem ---\n" << std::endl;
+        m_equation.compute_initial_condition(t0,var);
         for (int i=time->get_t_init() ; i< time->get_f_fin() ; i+=time->get_step())
         {
             m_equation.compute(i);
