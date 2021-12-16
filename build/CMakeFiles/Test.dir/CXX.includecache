@@ -16,10 +16,6 @@ vector
 iostream
 -
 
-/home/dendanilamia/TD3/equation.cpp
-equation.h
-/home/dendanilamia/TD3/equation.h
-
 /home/dendanilamia/TD3/equation.h
 Variable.h
 /home/dendanilamia/TD3/Variable.h
@@ -41,6 +37,8 @@ equation.h
 /home/dendanilamia/TD3/equation.h
 Variable.h
 /home/dendanilamia/TD3/Variable.h
+ITimeDiscretization.h
+/home/dendanilamia/TD3/ITimeDiscretization.h
 
 /home/dendanilamia/TD3/test.cpp
 gtest/gtest.h

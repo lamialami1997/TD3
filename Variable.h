@@ -10,4 +10,5 @@ class Variable {
     Variable(unsigned n);
     double& operator()(unsigned n);
     std::vector<double> get_y();
+    void print();
 };

@@ -2,6 +2,7 @@
 #include <iostream>
 #include "equation.h"
 #include "Variable.h"
+#include "ITimeDiscretization.h"
 
  
 
@@ -17,7 +18,7 @@ class problem
     
     // constructeur  , déconstructeur  
     public : 
-    problem (double a , double b , ITimeDiscretization* time ) : m_equation(a,b) , time(time) {};
+    problem (double a , double b , ITimeDiscretization* time ) : m_equation(a,b) , time(time) {var=time->nb_point();};
     ~problem(){};
 
 

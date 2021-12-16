@@ -9,12 +9,12 @@ double equation::get_b()
     return b;
 
 }
-double compute(double t, double step, Variable &var ,ITimeDiscretization temp)
+double equation::compute(double t, double step, Variable &var ,ITimeDiscretization temp)
 {
-    return var[time.iterateur(t)+1]=var[time.iterateur(t)]+step;
+    return var(temp.iterateur(t)+1)=var(temp.iterateur(t))+step;
 } 
-double compute_initial_condition(double t0, Variable &var)
+double equation::compute_initial_condition(double t0, Variable &var)
 {
-    var[0] = t0;
-    return var[0];
+    var(0) = t0;
+    return var(0);
 }

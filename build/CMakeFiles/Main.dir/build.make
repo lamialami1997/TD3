@@ -83,22 +83,9 @@ CMakeFiles/Main.dir/equation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main.dir/equation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dendanilamia/TD3/equation.cpp -o CMakeFiles/Main.dir/equation.cpp.s
 
-CMakeFiles/Main.dir/main.cpp.o: CMakeFiles/Main.dir/flags.make
-CMakeFiles/Main.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dendanilamia/TD3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Main.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/main.cpp.o -c /home/dendanilamia/TD3/main.cpp
-
-CMakeFiles/Main.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Main.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dendanilamia/TD3/main.cpp > CMakeFiles/Main.dir/main.cpp.i
-
-CMakeFiles/Main.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dendanilamia/TD3/main.cpp -o CMakeFiles/Main.dir/main.cpp.s
-
 CMakeFiles/Main.dir/Variable.cpp.o: CMakeFiles/Main.dir/flags.make
 CMakeFiles/Main.dir/Variable.cpp.o: ../Variable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dendanilamia/TD3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Main.dir/Variable.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dendanilamia/TD3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Main.dir/Variable.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/Variable.cpp.o -c /home/dendanilamia/TD3/Variable.cpp
 
 CMakeFiles/Main.dir/Variable.cpp.i: cmake_force
@@ -109,23 +96,51 @@ CMakeFiles/Main.dir/Variable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main.dir/Variable.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dendanilamia/TD3/Variable.cpp -o CMakeFiles/Main.dir/Variable.cpp.s
 
+CMakeFiles/Main.dir/ITimeDiscretization.cpp.o: CMakeFiles/Main.dir/flags.make
+CMakeFiles/Main.dir/ITimeDiscretization.cpp.o: ../ITimeDiscretization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dendanilamia/TD3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Main.dir/ITimeDiscretization.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/ITimeDiscretization.cpp.o -c /home/dendanilamia/TD3/ITimeDiscretization.cpp
+
+CMakeFiles/Main.dir/ITimeDiscretization.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Main.dir/ITimeDiscretization.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dendanilamia/TD3/ITimeDiscretization.cpp > CMakeFiles/Main.dir/ITimeDiscretization.cpp.i
+
+CMakeFiles/Main.dir/ITimeDiscretization.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main.dir/ITimeDiscretization.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dendanilamia/TD3/ITimeDiscretization.cpp -o CMakeFiles/Main.dir/ITimeDiscretization.cpp.s
+
+CMakeFiles/Main.dir/main.cpp.o: CMakeFiles/Main.dir/flags.make
+CMakeFiles/Main.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dendanilamia/TD3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Main.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main.dir/main.cpp.o -c /home/dendanilamia/TD3/main.cpp
+
+CMakeFiles/Main.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Main.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dendanilamia/TD3/main.cpp > CMakeFiles/Main.dir/main.cpp.i
+
+CMakeFiles/Main.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dendanilamia/TD3/main.cpp -o CMakeFiles/Main.dir/main.cpp.s
+
 # Object files for target Main
 Main_OBJECTS = \
 "CMakeFiles/Main.dir/problem.cpp.o" \
 "CMakeFiles/Main.dir/equation.cpp.o" \
-"CMakeFiles/Main.dir/main.cpp.o" \
-"CMakeFiles/Main.dir/Variable.cpp.o"
+"CMakeFiles/Main.dir/Variable.cpp.o" \
+"CMakeFiles/Main.dir/ITimeDiscretization.cpp.o" \
+"CMakeFiles/Main.dir/main.cpp.o"
 
 # External object files for target Main
 Main_EXTERNAL_OBJECTS =
 
 Main: CMakeFiles/Main.dir/problem.cpp.o
 Main: CMakeFiles/Main.dir/equation.cpp.o
-Main: CMakeFiles/Main.dir/main.cpp.o
 Main: CMakeFiles/Main.dir/Variable.cpp.o
+Main: CMakeFiles/Main.dir/ITimeDiscretization.cpp.o
+Main: CMakeFiles/Main.dir/main.cpp.o
 Main: CMakeFiles/Main.dir/build.make
 Main: CMakeFiles/Main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dendanilamia/TD3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dendanilamia/TD3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -4,8 +4,10 @@
 
 
 int main (){
-    UniformTimeDiscretization* time = new UniformTimeDiscretization(20,25,1);
-    problem pb (18, 03 ,time);
+    UniformTimeDiscretization* time = new UniformTimeDiscretization(10,25,1);
+    problem pb (1, 0 ,time);
     pb.solve();
+
     return 0;
+
 } 

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Test.dir/ITimeDiscretization.cpp.o"
+  "CMakeFiles/Test.dir/Variable.cpp.o"
   "CMakeFiles/Test.dir/equation.cpp.o"
   "CMakeFiles/Test.dir/problem.cpp.o"
   "CMakeFiles/Test.dir/test.cpp.o"

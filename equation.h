@@ -12,8 +12,8 @@ class equation{
     ~equation(){};
     double get_a();
     double get_b();
-    double compute(double t, double step, Variable &var,ITimeDiscretization time);
-    double compute_initial_condition(double t, Variable &var);
+    double compute(double t, double step, Variable &var,ITimeDiscretization temp);
+    double compute_initial_condition(double t0, Variable &var);
 
         
     

@@ -83,9 +83,22 @@ CMakeFiles/Test.dir/equation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/equation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dendanilamia/TD3/equation.cpp -o CMakeFiles/Test.dir/equation.cpp.s
 
+CMakeFiles/Test.dir/Variable.cpp.o: CMakeFiles/Test.dir/flags.make
+CMakeFiles/Test.dir/Variable.cpp.o: ../Variable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dendanilamia/TD3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Test.dir/Variable.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Variable.cpp.o -c /home/dendanilamia/TD3/Variable.cpp
+
+CMakeFiles/Test.dir/Variable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Variable.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dendanilamia/TD3/Variable.cpp > CMakeFiles/Test.dir/Variable.cpp.i
+
+CMakeFiles/Test.dir/Variable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Variable.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dendanilamia/TD3/Variable.cpp -o CMakeFiles/Test.dir/Variable.cpp.s
+
 CMakeFiles/Test.dir/test.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/test.cpp.o: ../test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dendanilamia/TD3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Test.dir/test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dendanilamia/TD3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Test.dir/test.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/test.cpp.o -c /home/dendanilamia/TD3/test.cpp
 
 CMakeFiles/Test.dir/test.cpp.i: cmake_force
@@ -96,24 +109,41 @@ CMakeFiles/Test.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/test.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dendanilamia/TD3/test.cpp -o CMakeFiles/Test.dir/test.cpp.s
 
+CMakeFiles/Test.dir/ITimeDiscretization.cpp.o: CMakeFiles/Test.dir/flags.make
+CMakeFiles/Test.dir/ITimeDiscretization.cpp.o: ../ITimeDiscretization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dendanilamia/TD3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Test.dir/ITimeDiscretization.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/ITimeDiscretization.cpp.o -c /home/dendanilamia/TD3/ITimeDiscretization.cpp
+
+CMakeFiles/Test.dir/ITimeDiscretization.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/ITimeDiscretization.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dendanilamia/TD3/ITimeDiscretization.cpp > CMakeFiles/Test.dir/ITimeDiscretization.cpp.i
+
+CMakeFiles/Test.dir/ITimeDiscretization.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/ITimeDiscretization.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dendanilamia/TD3/ITimeDiscretization.cpp -o CMakeFiles/Test.dir/ITimeDiscretization.cpp.s
+
 # Object files for target Test
 Test_OBJECTS = \
 "CMakeFiles/Test.dir/problem.cpp.o" \
 "CMakeFiles/Test.dir/equation.cpp.o" \
-"CMakeFiles/Test.dir/test.cpp.o"
+"CMakeFiles/Test.dir/Variable.cpp.o" \
+"CMakeFiles/Test.dir/test.cpp.o" \
+"CMakeFiles/Test.dir/ITimeDiscretization.cpp.o"
 
 # External object files for target Test
 Test_EXTERNAL_OBJECTS =
 
 Test: CMakeFiles/Test.dir/problem.cpp.o
 Test: CMakeFiles/Test.dir/equation.cpp.o
+Test: CMakeFiles/Test.dir/Variable.cpp.o
 Test: CMakeFiles/Test.dir/test.cpp.o
+Test: CMakeFiles/Test.dir/ITimeDiscretization.cpp.o
 Test: CMakeFiles/Test.dir/build.make
 Test: /usr/lib/x86_64-linux-gnu/libgtest.a
 Test: /usr/lib/x86_64-linux-gnu/libgtest_main.a
 Test: /usr/lib/x86_64-linux-gnu/libgtest.a
 Test: CMakeFiles/Test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dendanilamia/TD3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dendanilamia/TD3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Test.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/cmake -D TEST_TARGET=Test -D TEST_EXECUTABLE=/home/dendanilamia/TD3/build/Test -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/home/dendanilamia/TD3/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=Test_TESTS -D CTEST_FILE=/home/dendanilamia/TD3/build/Test[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -P /usr/share/cmake-3.16/Modules/GoogleTestAddTests.cmake
 

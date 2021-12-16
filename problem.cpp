@@ -11,9 +11,10 @@
         m_equation.compute_initial_condition(time->get_t_init(),var);
         for (double i=time->get_t_init() ; i<= time->get_f_fin() ; i+=time->get_step())
         {
-            m_equation.compute(i,time->get_step()), var,*time);
+            m_equation.compute(i,time->get_step(), var,*time);
              
         }
+       var.print(); 
         
 
     }

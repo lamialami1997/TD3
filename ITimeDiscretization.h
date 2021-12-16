@@ -14,7 +14,7 @@ class ITimeDiscretization
     double  get_f_fin();
     double  get_step();
     int nb_point();
-    int iterateur();
+    int iterateur(double n );
     
 };
 
