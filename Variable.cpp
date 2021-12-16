@@ -4,7 +4,7 @@ Variable::Variable(){};
 
 Variable::Variable(unsigned n)
 {
-    y.reserve(n);
+    y.resize(n+1);
 }
 double& Variable::operator()(unsigned n)
 {

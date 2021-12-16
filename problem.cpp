@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include "problem.h"
 
@@ -8,11 +7,11 @@
    
     void problem::solve()
     {
-        std::cout << "--- Solve problem ---\n" << std::endl;
-        m_equation.compute_initial_condition(t0,var);
-        for (int i=time->get_t_init() ; i< time->get_f_fin() ; i+=time->get_step())
+        
+        m_equation.compute_initial_condition(time->get_t_init(),var);
+        for (double i=time->get_t_init() ; i<= time->get_f_fin() ; i+=time->get_step())
         {
-            m_equation.compute(i);
+            m_equation.compute(i,time->get_step()), var,*time);
              
         }
         
@@ -28,18 +27,11 @@
     {
         return time;
     }
-    int ITimeDiscretization::get_t_init()
+    Variable problem::get_var()
     {
-        return t_init;
+        return var ; 
     }
-    int ITimeDiscretization::get_f_fin()
-    {
-        return f_fin;
-    }
-    int ITimeDiscretization::get_step()
-    {
-        return step;
-    }
+
 
     
 
